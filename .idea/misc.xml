@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Muhammad Ali/Area_calculator/app/src/main/res/layout/activity_circle.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Muhammad Ali/Area_calculator/app/src/main/res/layout/activity_rectangle.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Muhammad Ali/Area_calculator/app/src/main/res/layout/activity_sqaure.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Muhammad Ali/Area_calculator/app/src/main/res/layout/activity_triangle.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Muhammad Ali/Area_calculator/app/src/main/res/layout/activity_trianglr.xml" value="0.12771739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".square">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="90dp"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="@string/square"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="255dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="24dp"
+        android:hint="@string/value"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="@color/purple_200"
+        app:layout_constraintBottom_toTopOf="@+id/ans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="251dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:hint="@string/answer"
+        app:layout_constraintBottom_toTopOf="@+id/calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="141dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="169dp"
+        android:text="@string/calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ans" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
